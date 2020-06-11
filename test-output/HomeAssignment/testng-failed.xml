@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [HomeAssignment]" parallel="methods">
+  <test thread-count="2" name="Home_Assignments(failed)" parallel="methods">
+    <classes>
+      <class name="homeAssignment.FaceBookLoginTest">
+        <methods>
+          <include name="validateText"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- homeAssignment.FaceBookLoginTest -->
+    </classes>
+  </test> <!-- Home_Assignments(failed) -->
+</suite> <!-- Failed suite [HomeAssignment] -->
